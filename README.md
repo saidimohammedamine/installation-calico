@@ -15,10 +15,10 @@ first 1. Ensure Prerequisites : Before installing Calico, ensure:
         -sudo sed -i '/ swap / s/^/#/' /etc/fstab
 
 
-               3. Install Calico :
+  3. Install Calico :
   Run the following command to apply the Calico manifest:
 
-        -kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
+         -kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
 -This will:
 
 +Deploy Calico components as Kubernetes pods in the kube-system namespace.
