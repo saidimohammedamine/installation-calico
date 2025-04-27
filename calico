@@ -1,0 +1,3 @@
+sudo swapoff -a
+sudo sed -i '/ swap / s/^/#/' /etc/fstab
+kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
